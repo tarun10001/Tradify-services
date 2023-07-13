@@ -11,7 +11,7 @@ function App() {
     <div className="App">
         <button onClick={() => {
         setShow(!show)
-      }} className="togglebtn">{show ? "Add a new student" : "Go to students list"} </button>
+      }} className="togglebtn">{show ? "Add a new students name" : "Go to students list"} </button>
       {show ? <ShowStudents /> : <AddStudent /> }
     
     </div>
